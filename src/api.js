@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://vantagerent.onrender.com";
+const API_BASE = "https://vantagerent.onrender.com";
 
 export const api = {
   async getAll(resource) {
