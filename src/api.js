@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:3000";
+const API_BASE_URL = "https://vantagerent.onrender.com";
 
 export const api = {
   async getAll(resource) {
