@@ -1,0 +1,71 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "name": "Toyota Innova Crysta",
+      "type": "SUV",
+      "plate": "AP02 AB 1234",
+      "pricePerDay": 3500,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1629897029194-4748f4381338?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Maruti Suzuki Swift",
+      "type": "Car",
+      "plate": "AP02 CD 5678",
+      "pricePerDay": 1800,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1541899481282-d53bffe3c351?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Royal Enfield Classic 350",
+      "type": "Bike",
+      "plate": "AP02 EF 9012",
+      "pricePerDay": 900,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Honda Activa 6G",
+      "type": "Scooter",
+      "plate": "AP02 GH 3456",
+      "pricePerDay": 500,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 5,
+      "name": "Force Tempo Traveller",
+      "type": "Van",
+      "plate": "AP02 JK 7890",
+      "pricePerDay": 5500,
+      "available": false,
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=600&q=80"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Ravi Kumar",
+      "phone": "9876543210",
+      "email": "ravi@example.com",
+      "licenseNo": "AP0920250001"
+    }
+  ],
+  "rentals": [
+    {
+      "id": 1,
+      "vehicleId": 5,
+      "customerId": 1,
+      "startDate": "2026-10-28",
+      "endDate": "2026-10-31",
+      "days": 3,
+      "pricePerDay": 5500,
+      "amount": 16500,
+      "status": "Active"
+    }
+  ]
+}
